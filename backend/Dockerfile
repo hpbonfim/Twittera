@@ -1,4 +1,4 @@
-FROM ruby:slim
+FROM ruby:3.3.5-slim-bookworm
 # Instala nossas dependencias
 RUN apt-get update && apt-get install -qq -y --no-install-recommends \
     build-essential nodejs libpq-dev imagemagick git-all
